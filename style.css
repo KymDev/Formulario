@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff1f;
+}
+.container{
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+.form-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(5, 64, 175, 0.274);
+    padding: 1rem;
+}
+.form-img img{
+    width: 31rem;
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #92b6fa17;
+    padding: 3rem;
+}
+.fheader{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.loginbutton {
+    display: flex;
+    align-items: center;
+
+}
+.loginbutton button{
+    border: none;
+    background-color: rgba(5, 64, 175, 0.274);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.loginbutton button:hover{
+    background-color: rgba(5, 65, 175, 0.562);
+}
+.loginbutton button a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.863);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.continuebutton button{
+    width: 100%;
+    height: 50px;
+    margin-top: 2.5rem;
+  
+}
+.fheader h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: rgba(5, 64, 175, 0.274);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box input:hover{
+    background-color:#fffefe4b ;
+}
+.input-box input:focus-visible{
+    outline: 1px rgba(5, 64, 175, 0.274);
+}
+.senha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.0rem;
+}
+.senha input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.senha input:hover{
+    background-color:#fffefe4b ;
+}
+.senha input:focus-visible{
+    outline: 1px rgba(5, 64, 175, 0.274);
+}
+
+.input-box label,
+.gender h6{
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.gendergroup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.60rem;
+    padding: 0 0.5rem;
+}
+.gender input{
+    margin: 0 0.5rem;
+}
+.gender label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
